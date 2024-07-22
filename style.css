@@ -1,0 +1,85 @@
+body {
+  align-items: center;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+button {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  gap: 50px;
+  list-style: none;
+}
+
+:visited {
+  color: unset;
+}
+
+section:not(.skills) img {
+  display: block;
+}
+
+.skills {
+  padding: 100px;
+  text-align: center;
+}
+
+.skills h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.skills h4 {
+  color: #828282;
+  font-style: 14px;
+  height: 33px;
+}
+
+.skills li:last-child h4 {
+  line-height: 33px;
+}
+
+.stars {
+  display: flex;
+}
+
+.portfolio {
+  text-align: center;
+  background-color: #F6F6F6;
+  padding: 100px;
+}
+
+.portfolio ul {
+  display: unset;
+}
+
+.portfolio img {
+  margin: 70px auto 40px;
+}
+
+footer {
+  text-align: center;
+  padding: 100px;
+}
+
+footer button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 22px;
+  padding: 10px 16px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 60px auto 30px;
+}
+
+footer p:last-child {
+  font-size: 14px;
+  color: #828282;
+}
