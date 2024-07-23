@@ -8,12 +8,28 @@ button {
 
 }
 
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
 ul {
   display: flex;
   justify-content: center;
   padding: 0;
   gap: 50px;
   list-style: none;
+  font-size: 14px;
 }
 
 :visited {
@@ -23,6 +39,44 @@ ul {
 section:not(.skills) img {
   display: block;
 }
+
+header {
+  width: 970px;
+  margin: auto;
+}
+
+header a:link,
+header a:visited {
+  text-decoration: none;
+  color: #828282;
+}
+
+header a:hover,
+a:active {
+  color: #070707;
+}
+
+.hero {
+  width: 970px;
+  text-align-last: left;
+  margin: auto;
+}
+
+.about {
+  text-align: center;
+  padding: 100px;
+  background-color: #F6F6F6;
+}
+
+.about h2 {
+  margin: 0 auto 50px;
+}
+
+.about p {
+  margin: 30px;
+}
+
+
 
 .skills {
   padding: 100px;
